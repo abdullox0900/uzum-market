@@ -1,0 +1,138 @@
+.container {
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 0 11px 0;
+        margin-bottom: 12px;
+
+        .hero-left {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0 7px;
+
+            a {
+                img {
+
+                    width: 200px;
+
+                }
+            }
+        }
+
+        .hero-center {
+            // width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0 7px;
+
+            .hero-btn__1 {
+                width: 120px;
+                height: 40px;
+                border-radius: 4px;
+                background: rgba(49, 49, 196, 0.10);
+
+                a {
+                    color: #33C;
+                    text-align: center;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    letter-spacing: 0.084px;
+                }
+            }
+
+            input {
+
+                width: 520.38px;
+                height: 40px;
+                padding: 17px;
+                border-radius: 4px;
+                border: 1px solid rgba(118, 121, 127, 0.30);
+                background: #FFF;
+            }
+
+            .hero-btn__2 {
+                padding: 8px 27.04px 8px 27.01px;
+                border-radius: 0px 4px 4px 0px;
+                background: rgba(118, 121, 127, 0.05);
+            }
+
+        }
+
+
+        .hero-right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .hero-person{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 9px;
+
+            }
+
+            .hero-heart{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 9px;
+            }
+
+            .hero-bag{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 9px;
+            }
+        }
+    }
+
+
+    .themes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .nasiya {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+        }
+
+        p {
+
+            width: 74.75px;
+            color: #000;
+            font-size: 12.8px;
+            font-weight: 600;
+            line-height: 15.36px;
+        }
+
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        a {
+
+            color: rgba(0, 0, 0, 0.70);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+
+        }
+
+
+    }
+
+
+
+}
