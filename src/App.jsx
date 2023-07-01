@@ -9,8 +9,8 @@ function App() {
     <>
     <Header/>
     <Hero/>
-    <h1>Hello</h1>
-    <Footer/>
+    {/* <h1>Hello</h1> */}
+    {/* <Footer/> */}
 
     </>
   )
