@@ -3,12 +3,14 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 18px 0 11px 0;
+        margin-bottom: 12px;
 
         .hero-left {
-            width: 25%;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 0 7px;
 
             a {
                 img {
@@ -21,11 +23,10 @@
 
         .hero-center {
             // width: 80%;
-            padding: 0 10%;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            // gap: 15px;
+            gap: 0 7px;
 
             .hero-btn__1 {
                 width: 120px;
@@ -132,6 +133,6 @@
 
     }
 
-   
+
 
 }

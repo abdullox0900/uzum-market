@@ -7,6 +7,7 @@ import Bag from '../../assets/svg/bag.svg'
 import Nasiya from '../../assets/images/Halol.png'
 import Strelka from '../../assets/svg/strelka.svg'
 import Swiper from '../../assets/images/swiper.png'
+import Logo from '../../assets/svg/site-logo.svg'
 
 
 
@@ -19,7 +20,7 @@ function Hero() {
             <div className='hero'>
                 <div className="hero-left">
                     <a href="#">
-                        <img src="https://lichnyj-kabinet.uz/wp-content/uploads/2023/04/dgh35jjj.jpg" alt="" />
+                        <img src={Logo} alt="" />
                     </a>
                 </div>
 
@@ -55,7 +56,7 @@ function Hero() {
 
                 </div>
             </div>
-            
+
 
             <div className="themes">
                 <div className="nasiya">
