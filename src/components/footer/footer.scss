@@ -1,0 +1,39 @@
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h4 {
+    color: #1f1f26;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  p {
+    color: #4d4e59;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 16px 0 19px 0;
+  }
+
+  .foot__download {
+    .apple {
+      color: #1f1f26;
+      font-size: 12.8px;
+      line-height: 15.36px;
+      margin-right: 24px;
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .google {
+      color: #1f1f26;
+      font-size: 12.8px;
+      line-height: 15.36px;
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
