@@ -32,6 +32,8 @@ function Footer() {
                 <span className="apple"> <img src={apple} alt="apple logo" />App Store</span>
                 <span className="google"> <img src={google} alt="google play logo" />Google Play</span>
                 <h4>Uzum ijtimoiy tarmoqlarda</h4>
+
+                {/* img larni a tegiga o'rash //  razmerlarini to'g'irlash kerak */}
                 <img src={instagram} alt="instagram logo" />
                 <img src={telegram} alt="telegram logo" />
                 <img src={youtube} alt="youtube logo" />
