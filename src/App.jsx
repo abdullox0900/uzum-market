@@ -1,10 +1,12 @@
 import './App.css'
-
+import Header from './components/header/header'
+import Hero from './components/hero/hero'
 function App() {
 
   return (
     <>
-    <h1>Yaxshimisiz</h1>
+    <Header/>
+    <Hero/>
     </>
   )
 }

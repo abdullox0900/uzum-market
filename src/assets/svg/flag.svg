@@ -1,0 +1,20 @@
+<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame">
+<g id="Mask group">
+<mask id="mask0_1_20" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+<g id="Group">
+<path id="Vector" d="M10.912 20.8098C16.4348 20.8098 20.912 16.3326 20.912 10.8098C20.912 5.28696 16.4348 0.809814 10.912 0.809814C5.38914 0.809814 0.911987 5.28696 0.911987 10.8098C0.911987 16.3326 5.38914 20.8098 10.912 20.8098Z" fill="#F4F5F5"/>
+</g>
+</mask>
+<g mask="url(#mask0_1_20)">
+<g id="Group_2">
+<path id="Vector_2" d="M20.912 0.809814H0.911987V20.8098H20.912V0.809814Z" fill="#0099B5"/>
+<path id="Vector_3" d="M20.912 13.8098H0.911987V20.8098H20.912V13.8098Z" fill="#1EB53A"/>
+<path id="Vector_4" d="M20.912 13.8098H0.911987V14.8098H20.912V13.8098Z" fill="#CE1126"/>
+<path id="Vector_5" d="M20.912 6.80981H0.911987V7.80981H20.912V6.80981Z" fill="#CE1126"/>
+<path id="Vector_6" d="M20.912 7.30981H0.911987V14.3098H20.912V7.30981Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</svg>
