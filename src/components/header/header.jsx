@@ -3,9 +3,17 @@ import "./header.scss"
 import Location from '../../assets/svg/location.svg'
 import Flag from '../../assets/svg/flag.svg'
 
+import { Select } from 'antd';
+
+
 function Header() {
+
+    const handleChange = (value) => {
+        console.log(value); // { value: "lucy", key: "lucy", label: "Lucy (101)" }
+    };
+
     return (
-        <header>
+        <header className="header">
             <div className="container">
                 <nav className="nav">
                     <div className="nav-left">
@@ -25,7 +33,27 @@ function Header() {
                         <a href="#">Savol-javoblar</a>
                         <span className="nav-span__1">Buyurtmalarim</span>
                         <img src={Flag} alt="" />
-                        <span className="nav-span__2">Оʻzbekcha</span>
+                        <Select
+                            labelInValue
+                            defaultValue={{
+                                value: 'lucy',
+                                label: 'Lucy (101)',
+                            }}
+                            style={{
+                                width: 120,
+                            }}
+                            onChange={handleChange}
+                            options={[
+                                {
+                                    value: 'uz',
+                                    label: 'Uzbekistan',
+                                },
+                                {
+                                    value: 'ru',
+                                    label: 'Rossian',
+                                },
+                            ]}
+                        />
                     </div>
                 </nav>
 
