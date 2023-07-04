@@ -9,16 +9,16 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import {Autoplay, Navigation, Pagination } from "swiper";
+import { Autoplay, Navigation, Pagination } from "swiper";
 
 
 function Slider() {
   return (
     <div className="container">
-
       <Swiper
         dir="rtl"
         navigation={true}
+        spaceBetween={50}
         pagination={{
           clickable: true,
         }}
@@ -31,17 +31,32 @@ function Slider() {
       >
         <SwiperSlide>
           <div className="slider-card">
-            <img src={BannerImg} alt="banner" width={1240} height={413} />
+            <img src={BannerImg} alt="banner"  height={413} />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="slider-card">
-            <img src={BannerImg} alt="banner" width={1240} height={413} />
+            <img src={BannerImg} alt="banner"  height={413} />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="slider-card">
-            <img src={BannerImg} alt="banner" width={1240} height={413} />
+            <img src={BannerImg} alt="banner"  height={413} />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slider-card">
+            <img src={BannerImg} alt="banner"  height={413} />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slider-card">
+            <img src={BannerImg} alt="banner"  height={413} />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slider-card">
+            <img src={BannerImg} alt="banner" height={413} />
           </div>
         </SwiperSlide>
       </Swiper>

@@ -8,6 +8,8 @@ import Nasiya from '../../assets/images/Halol.png'
 import Strelka from '../../assets/svg/strelka.svg'
 import Swiper from '../../assets/images/swiper.png'
 import Logo from '../../assets/svg/site-logo.svg'
+import Uzum from '../../assets/svg/uzum.svg'
+import Katalog from '../../assets/svg/katalog.svg'
 
 
 
@@ -20,18 +22,23 @@ function Hero() {
             <div className='hero'>
                 <div className="hero-left">
                     <a href="#">
-                        <img src={Logo} alt="" />
+                        <img src={Uzum} alt="" />
                     </a>
                 </div>
 
                 <div className="hero-center">
                     <button className='hero-btn__1'>
+                        <img src={Katalog} alt="" />
                         <a href="#">Katalog</a>
                     </button>
-                    <input type="text" placeholder='Искать товары и категории' />
-                    <button className='hero-btn__2'>
-                        <img src={Mirror} alt="" />
-                    </button>
+
+
+                    <div className="input__button">
+                        <input type="text" placeholder='Искать товары и категории' />
+                        <button className='hero-btn__2'>
+                            <img src={Mirror} alt="" />
+                        </button>
+                    </div>
                 </div>
 
                 <div className="hero-right">

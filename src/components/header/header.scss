@@ -20,6 +20,7 @@
                 font-size: 14px;
                 font-family: Inter;
                 line-height: 14px;
+                cursor: pointer;
 
             }
 
@@ -67,8 +68,13 @@
                 line-height: 14px;
             }
 
+            a:hover{
+                color: black;
+            }
+
             img{
-                padding: 6px;
+                // padding: 6px;
+                cursor: pointer;
             }
 
             .nav-span__1 {
@@ -79,6 +85,10 @@
                 font-weight: 500;
                 line-height: 14px;
                 padding: 33.8px;
+                cursor: pointer;
+            }
+            .nav-span__1:hover{
+                color: #141415;
             }
 
             .nav-span__2 {
@@ -100,3 +110,4 @@
     border: none !important;
     background-color: transparent !important;
 }
+

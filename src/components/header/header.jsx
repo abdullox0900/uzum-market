@@ -36,11 +36,12 @@ function Header() {
                         <Select
                             labelInValue
                             defaultValue={{
-                                value: 'lucy',
-                                label: 'Lucy (101)',
+                                value: 'Оʻzbekcha',
+                                label: 'Оʻzbekcha',
                             }}
                             style={{
                                 width: 120,
+                                
                             }}
                             onChange={handleChange}
                             options={[
