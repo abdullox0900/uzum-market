@@ -28,16 +28,15 @@ function Footer() {
                 <p>Sotuvchi kabinetiga kirish</p>
             </div>
             <div className="foot__download">
-                <h4>Ilovani yuklab olish</h4>
-                <span className="apple"> <img src={apple} alt="apple logo" />App Store</span>
-                <span className="google"> <img src={google} alt="google play logo" />Google Play</span>
-                <h4>Uzum ijtimoiy tarmoqlarda</h4>
+                <h4 className="app">Ilovani yuklab olish</h4>
+                <a href="#" className="apple"> <img src={apple} alt="apple logo" />App Store</a>
+                <a href="#" className="google"> <img src={google} alt="google play logo" />Google Play</a>
+                <h4 className="social">Uzum ijtimoiy tarmoqlarda</h4>
 
-                {/* img larni a tegiga o'rash //  razmerlarini to'g'irlash kerak */}
-                <img src={instagram} alt="instagram logo" />
-                <img src={telegram} alt="telegram logo" />
-                <img src={youtube} alt="youtube logo" />
-                <img src={facebook} alt="facebook logo" />
+                <a href="https://www.instagram.com/uzum.market"><img src={instagram} alt="instagram logo" /></a>
+                <a href="https://t.me/uzum_market"><img src={telegram} alt="telegram logo" /></a>
+                <a href="https://www.youtube.com/channel/UCY3nNF2MUDKHrELA6LzbnHA"><img src={youtube} alt="youtube logo" /></a>
+                <a href="https://www.facebook.com/uzummarket"><img src={facebook} alt="facebook logo" /></a>
             </div>
         </div>
       </div>
