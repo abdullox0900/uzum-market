@@ -68,11 +68,11 @@
                 line-height: 14px;
             }
 
-            a:hover{
+            a:hover {
                 color: black;
             }
 
-            img{
+            img {
                 // padding: 6px;
                 cursor: pointer;
             }
@@ -87,7 +87,8 @@
                 padding: 33.8px;
                 cursor: pointer;
             }
-            .nav-span__1:hover{
+
+            .nav-span__1:hover {
                 color: #141415;
             }
 
@@ -101,6 +102,18 @@
                 font-weight: 500;
                 line-height: 40px;
             }
+
+            .Lang {
+                width: 120px;
+                height: 32px;
+                border: none;
+                background: transparent;
+                font-size: 14px;
+                color: #62656a;
+                padding: 0 12px 0 10px;
+                text-align: center;
+            }
+            
         }
 
     }
@@ -110,4 +123,3 @@
     border: none !important;
     background-color: transparent !important;
 }
-
