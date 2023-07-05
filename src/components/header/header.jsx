@@ -3,10 +3,13 @@ import "./header.scss"
 import Location from '../../assets/svg/location.svg'
 import Flag from '../../assets/svg/flag.svg'
 
+import { content } from "../../localization/content";
+
 import { Select } from 'antd';
 
 
-function Header() {
+function Header({lang, setLang }) {
+
 
     const handleChange = (value) => {
         console.log(value); // { value: "lucy", key: "lucy", label: "Lucy (101)" }
@@ -19,7 +22,7 @@ function Header() {
                     <div className="nav-left">
                         <img src={Location} alt="" />
                         <p>
-                            Shahar:
+                            {content[lang].city}
                             <span>Toshkent</span>
                         </p>
                         <a className="nav-a" href="#">Topshirish punktlari</a>
@@ -30,7 +33,7 @@ function Header() {
                         </p>
                     </div>
                     <div className="nav-right">
-                        <a href="#">Savol-javoblar</a>
+                        <a href="#">{content[lang].savol_javoblar}</a>
                         <span className="nav-span__1">Buyurtmalarim</span>
                         <img src={Flag} alt="" />
                         <Select
@@ -39,9 +42,10 @@ function Header() {
                                 value: 'Оʻzbekcha',
                                 label: 'Оʻzbekcha',
                             }}
+
                             style={{
                                 width: 120,
-                                
+
                             }}
                             onChange={handleChange}
                             options={[
@@ -55,6 +59,13 @@ function Header() {
                                 },
                             ]}
                         />
+                        <select onChange={(evt) => {
+                            setLang(evt.target.value)
+                        }}>
+                            <option value="uz">uz</option>
+                            <option value="ru">ru</option>
+                            <option value="en">en</option>
+                        </select>
                     </div>
                 </nav>
 
