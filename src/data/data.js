@@ -1,8 +1,8 @@
-import Flour from '../assets/images/flour.jpg';
+
 
 export const data = [
     {
-        img: {Flour},
+        img: 'https://images.uzum.uz/cihpq6v5d7kom1tj5k1g/t_product_540_high.jpg#1688480270860',
         title: "Bug'doy uni Melek birinchi nav, 1 kg",
         reting: 5.0,
         eski: '10 000 som',
