@@ -1,5 +1,3 @@
-
-
 export const data = [
     {
         img: 'https://images.uzum.uz/ciignif5d7kom1tj7tv0/t_product_540_high.jpg#1688637776870',
