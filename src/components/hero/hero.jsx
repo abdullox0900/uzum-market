@@ -10,12 +10,13 @@ import Swiper from '../../assets/images/swiper.png'
 import Logo from '../../assets/svg/site-logo.svg'
 import Uzum from '../../assets/svg/uzum.svg'
 import Katalog from '../../assets/svg/katalog.svg'
+import { content } from '../../localization/content'
 
 
 
 
 
-function Hero() {
+function Hero({lang, setLang}) {
     return (
         <div className="container">
 
@@ -45,19 +46,19 @@ function Hero() {
                     <div className="hero-person">
                         <img src={Person} alt="" />
                         <p>
-                            Kirish
+                            {content[lang].kirish}
                         </p>
                     </div>
                     <div className="hero-heart">
                         <img src={Heart} alt="" />
                         <p>
-                            Saralangan
+                            {content[lang].saralangan}
                         </p>
                     </div>
                     <div className="hero-bag">
                         <img src={Bag} alt="" />
                         <p>
-                            Savat
+                            {content[lang].savat}
                         </p>
                     </div>
 
@@ -67,21 +68,21 @@ function Hero() {
 
             <div className="themes">
                 <div className="nasiya">
-                    <img src={Nasiya} alt="" /><p>Halol nasiya</p>
+                    <img src={Nasiya} alt="" /><p>{content[lang].nasiya}</p>
 
                 </div>
                 <ul>
-                    <li><a href="#">Elektronika</a></li>
-                    <li><a href="#">Maishiy texnika</a></li>
-                    <li><a href="#">Kiyim</a></li>
-                    <li><a href="#">Poyabzallar</a></li>
-                    <li><a href="#">Aksessuarlar</a></li>
-                    <li><a href="#">Goʻzallik</a></li>
-                    <li><a href="#">Salomatlik</a></li>
-                    <li><a href="#">Uy-roʻzgʻor buyumlari</a></li>
-                    <li><a href="#">Qurilish va taʼmirlash</a></li>
-                    <li><a href="#">Avtotovarlar</a></li>
-                    <li><a href="#">Yana
+                    <li><a href="#">{content[lang].elect}</a></li>
+                    <li><a href="#">{content[lang].maishiy}</a></li>
+                    <li><a href="#">{content[lang].kiyim}</a></li>
+                    <li><a href="#">{content[lang].poyabzal}</a></li>
+                    <li><a href="#">{content[lang].aksessuar}</a></li>
+                    <li><a href="#">{content[lang].goʻzallik}</a></li>
+                    <li><a href="#">{content[lang].salomatlik}</a></li>
+                    <li><a href="#">{content[lang].rozgor}</a></li>
+                    <li><a href="#">{content[lang].qurilish}</a></li>
+                    <li><a href="#">{content[lang].avtotovar}</a></li>
+                    <li><a href="#">{content[lang].yana}
                         <img src={Strelka} alt="" />
                     </a></li>
                 </ul>

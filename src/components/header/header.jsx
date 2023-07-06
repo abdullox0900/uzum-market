@@ -8,7 +8,7 @@ import { content } from "../../localization/content";
 import { Select } from 'antd';
 
 
-function Header({lang, setLang }) {
+function Header({ lang, setLang }) {
 
 
     const handleChange = (value) => {
@@ -25,18 +25,18 @@ function Header({lang, setLang }) {
                             {content[lang].city}
                             <span>Toshkent</span>
                         </p>
-                        <a className="nav-a" href="#">Topshirish punktlari</a>
+                        <a className="nav-a" href="#">{content[lang].punkt}</a>
                     </div>
                     <div className="nav-center">
                         <p>
-                            Buyurtmangizni 1 kunda bepul yetkazib beramiz!
+                            {content[lang].dostavka}
                         </p>
                     </div>
                     <div className="nav-right">
                         <a href="#">{content[lang].savol_javoblar}</a>
-                        <span className="nav-span__1">Buyurtmalarim</span>
+                        <span className="nav-span__1">{content[lang].buyurtmalarim}</span>
                         <img src={Flag} alt="" />
-                        <Select
+                        {/* <Select
                             labelInValue
                             defaultValue={{
                                 value: 'Оʻzbekcha',
@@ -50,22 +50,23 @@ function Header({lang, setLang }) {
                             onChange={handleChange}
                             options={[
                                 {
-                                    value: 'uz',
-                                    label: 'Uzbekistan',
+                                    value: 'Русский',
+                                    label: 'Русский',
                                 },
-                                {
-                                    value: 'ru',
-                                    label: 'Rossian',
-                                },
+                              
+
                             ]}
-                        />
-                        <select onChange={(evt) => {
+                        /> */}
+                        <select className="Lang" onChange={(evt) => {
                             setLang(evt.target.value)
                         }}>
-                            <option value="uz">uz</option>
-                            <option value="ru">ru</option>
-                            <option value="en">en</option>
+
+                            <option value="uz">O'zbekcha</option>
+                            <option value="ru">Русский</option>
+
+
                         </select>
+
                     </div>
                 </nav>
 

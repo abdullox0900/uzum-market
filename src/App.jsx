@@ -16,11 +16,11 @@ function App() {
   return (
     <>
     <Header lang={lang} setLang={setLang}/>
-    <Hero lang={lang}/>
+    <Hero lang={lang} setLang={setLang}/>
     <Slider />
     <Card />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

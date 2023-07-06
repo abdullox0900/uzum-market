@@ -16,6 +16,9 @@
   }
 
   .foot__download {
+    .app {
+      padding-top: 25px;
+    }
     .apple {
       color: #1f1f26;
       font-size: 12.8px;
@@ -34,6 +37,13 @@
         width: 24px;
         height: 24px;
       }
+    }
+    .social {
+      padding-top: 40px;
+      padding-bottom: 15px;
+    }
+    a {
+      padding-right: 14px;
     }
   }
 }
