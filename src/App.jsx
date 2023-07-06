@@ -20,7 +20,7 @@ function App() {
       <Slider />
       {/* <Card /> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
