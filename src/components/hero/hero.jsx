@@ -1,4 +1,3 @@
-import React from 'react'
 import "./hero.scss"
 import Mirror from '../../assets/svg/mirror.svg'
 import Person from '../../assets/svg/person.svg'
@@ -6,8 +5,6 @@ import Heart from '../../assets/svg/heart.svg'
 import Bag from '../../assets/svg/bag.svg'
 import Nasiya from '../../assets/images/Halol.png'
 import Strelka from '../../assets/svg/strelka.svg'
-import Swiper from '../../assets/images/swiper.png'
-import Logo from '../../assets/svg/site-logo.svg'
 import Uzum from '../../assets/svg/uzum.svg'
 import Katalog from '../../assets/svg/katalog.svg'
 import { content } from '../../localization/content'

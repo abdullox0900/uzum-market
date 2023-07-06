@@ -113,7 +113,11 @@
                 padding: 0 12px 0 10px;
                 text-align: center;
             }
-            
+
+            .Lang:focus {
+                outline: none;
+            }
+
         }
 
     }
@@ -122,4 +126,42 @@
 .ant-select-selector {
     border: none !important;
     background-color: transparent !important;
+}
+
+@media only screen and (min-width:1554px){
+    .header{
+        .nav-center{
+            p{
+                display: flex;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .header{
+        .nav-left{
+            img{
+                width: 24px;
+                height: 24px;
+            }
+            p{
+                font-size: 14px;
+            }
+            a{
+                font-size: 14px;
+            }
+
+        }
+        .nav-center{
+            p{
+                display: none;
+            }
+        }
+
+        .nav-right{
+            
+        }
+    }
+
 }

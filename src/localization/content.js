@@ -42,13 +42,6 @@ export const content = {
         rozgor: 'Домашние товары',
         qurilish: 'Строительство и ремонт',
         avtotovar: 'Автотовары',
-        yana: 'Еще'
-
-
-
-
-
-
-
+        yana: 'Еще',
     },
 }
