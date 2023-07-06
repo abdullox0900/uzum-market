@@ -14,6 +14,7 @@ function Card() {
                             <div className="card">
                                 <img src={item.img} alt="" />
                                 <div>{item.title}</div>
+                                <div>{item.reting}</div>
                             </div>
                         )
                     })
