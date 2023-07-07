@@ -92,11 +92,6 @@
                 gap: 9px;
                 cursor: pointer;
             }
-            .hero-person:hover{
-                background-color: grey;
-            
-            }
-
             .hero-heart {
                 display: flex;
                 justify-content: center;
@@ -104,21 +99,12 @@
                 gap: 9px;
                 cursor: pointer;
             }
-            .hero-heart:hover{
-                background: grey;
-            
-            }
-
             .hero-bag {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 gap: 9px;
                 cursor: pointer;
-            }
-            .hero-bag:hover{
-                background: grey;
-            
             }
         }
     }
