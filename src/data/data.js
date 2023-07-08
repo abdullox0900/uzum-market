@@ -1,12 +1,13 @@
-
+import Img1 from "../assets/images/flour.jpg"
 
 export const data = [
     {
-        img: 'https://images.uzum.uz/ciignif5d7kom1tj7tv0/t_product_540_high.jpg#1688637776870',
+        img: Img1,
         title: "Bug'doy uni Melek birinchi nav, 1 kg",
         reting: 5.0,
         eski: '10 000 som',
         som: '5 000 som',
+
     },
     {
         img: 'https://images.uzum.uz/cihpq6v5d7kom1tj5k1g/t_product_540_high.jpg#1688480270860',
@@ -14,6 +15,7 @@ export const data = [
         reting: 5.0,
         eski: '21 000 som',
         som: '14 000 som',
+
     },
     {
         img: 'https://images.uzum.uz/ciignif5d7kom1tj7tv0/t_product_540_high.jpg#1688637776870',
