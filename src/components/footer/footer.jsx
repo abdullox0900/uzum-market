@@ -14,33 +14,45 @@ function Footer() {
         <div className="foot">
             <div className="foot__about-us">
                 <h4>Biz haqimizda</h4>
-                <p>Topshirish punktlari</p>
-                <p>Vakansiyalar</p>
+                <a href="#"><p>Topshirish punktlari</p></a>
+                <a href="#"><p>Vakansiyalar</p></a>
             </div>
             <div className="foot__users">
                 <h4>Foydalanuvchilarga</h4>
-                <p>Biz bilan bog'lanish</p>
-                <p>Savol-javob</p>
+                <a href="#"><p>Biz bilan bog'lanish</p></a>
+                <a href="#"><p>Savol-javob</p></a>
             </div>
             <div className="foot__businessmen">
                 <h4>Tadbirkorlarga</h4>
-                <p>Uzumda soting</p>
-                <p>Sotuvchi kabinetiga kirish</p>
+                <a href="#"><p>Uzumda soting</p></a>
+                <a href="#"><p>Sotuvchi kabinetiga kirish</p></a>
             </div>
             <div className="foot__download">
                 <h4 className="app">Ilovani yuklab olish</h4>
-                <a href="#" className="apple"> <img src={apple} alt="apple logo" />App Store</a>
-                <a href="#" className="google"> <img src={google} alt="google play logo" />Google Play</a>
+                <div className="footer-icon-wrapper">
+                <a href="#" className="apple footer-icon-wrap"> <img src={apple} alt="apple logo" />App Store</a>
+                <a href="#" className="google footer-icon-wrap"> <img src={google} alt="google play logo" />Google Play</a>
+                </div>
                 <h4 className="social">Uzum ijtimoiy tarmoqlarda</h4>
 
-                <a href="https://www.instagram.com/uzum.market"><img src={instagram} alt="instagram logo" /></a>
+                <a href="https://www.instagram.com/uzum.market">
+                    <img src={instagram} alt="instagram logo" /></a>
                 <a href="https://t.me/uzum_market"><img src={telegram} alt="telegram logo" /></a>
                 <a href="https://www.youtube.com/channel/UCY3nNF2MUDKHrELA6LzbnHA"><img src={youtube} alt="youtube logo" /></a>
                 <a href="https://www.facebook.com/uzummarket"><img src={facebook} alt="facebook logo" /></a>
             </div>
         </div>
+        <div className="footer__end">
+            <div className="footer__end left">
+                <span><a href="#">Maxfiylik kelishuvi</a></span>
+                <span><a href="#">Foydalanuvchi kelishuvi</a></span>
+            </div>
+            <div className="footer__end right">
+                <span>«2023© XK MCHJ «UZUM MARKET». STIR 309376127. Barcha huquqlar himoyalangan»</span>
+            </div>
+        </div>
       </div>
     )
   }
-  
+
   export default Footer
