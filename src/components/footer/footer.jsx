@@ -29,11 +29,14 @@ function Footer() {
             </div>
             <div className="foot__download">
                 <h4 className="app">Ilovani yuklab olish</h4>
-                <a href="#" className="apple"> <img src={apple} alt="apple logo" />App Store</a>
-                <a href="#" className="google"> <img src={google} alt="google play logo" />Google Play</a>
+                <div className="footer-icon-wrapper">
+                <a href="#" className="apple footer-icon-wrap"> <img src={apple} alt="apple logo" />App Store</a>
+                <a href="#" className="google footer-icon-wrap"> <img src={google} alt="google play logo" />Google Play</a>
+                </div>
                 <h4 className="social">Uzum ijtimoiy tarmoqlarda</h4>
 
-                <a href="https://www.instagram.com/uzum.market"><img src={instagram} alt="instagram logo" /></a>
+                <a href="https://www.instagram.com/uzum.market">
+                    <img src={instagram} alt="instagram logo" /></a>
                 <a href="https://t.me/uzum_market"><img src={telegram} alt="telegram logo" /></a>
                 <a href="https://www.youtube.com/channel/UCY3nNF2MUDKHrELA6LzbnHA"><img src={youtube} alt="youtube logo" /></a>
                 <a href="https://www.facebook.com/uzummarket"><img src={facebook} alt="facebook logo" /></a>
@@ -51,5 +54,5 @@ function Footer() {
       </div>
     )
   }
-  
+
   export default Footer
