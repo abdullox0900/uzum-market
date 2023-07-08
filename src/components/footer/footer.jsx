@@ -41,8 +41,8 @@ function Footer() {
         </div>
         <div className="footer__end">
             <div className="footer__end left">
-                <span><a href="#">Maxfiylik kelishuvi</a></span>
-                <span><a href="#">Foydalanuvchi kelishuvi</a></span>
+                <a href="#">Maxfiylik kelishuvi</a>
+                <a href="#">Foydalanuvchi kelishuvi</a>
             </div>
             <div className="footer__end right">
                 <span>«2023© XK MCHJ «UZUM MARKET». STIR 309376127. Barcha huquqlar himoyalangan»</span>
