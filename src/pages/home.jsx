@@ -20,7 +20,7 @@ function Home() {
             <Slider />
             <Card />
 
-            <Footer />
+            <Footer lang={lang} setLang={setLang}/>
         </>
     )
 }
