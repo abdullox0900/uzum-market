@@ -3,6 +3,8 @@ import { data } from "../../data/data";
 import Rating from "../../assets/svg/rating.svg";
 // import Heart from "../../assets/svg/heart-icon.svg";
 import Cart from "../../assets/svg/cart.svg";
+import Fan from '../../assets/images/fan.jpg'
+
 
 function Card() {
   console.log(data);
@@ -26,6 +28,7 @@ function Card() {
                   <div className="card-current-price">{item.som}<a href="#"><img className="card-cart" src={Cart} alt="cart"/></a></div>
                 </div>
               </div>
+              
             );
           })}
       </div>

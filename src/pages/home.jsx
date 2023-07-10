@@ -7,6 +7,7 @@ import Footer from '../components/footer/footer'
 import Slider from '../components/slider/slider'
 // import Test from './components/test/test'
 import Card from '../components/card/card'
+import Modal from '../components/hero/modal/modal'
 
 function Home() {
 
@@ -17,9 +18,9 @@ function Home() {
         <>
             <Header lang={lang} setLang={setLang} />
             <Hero lang={lang} setLang={setLang} />
+            <Modal />
             <Slider />
             <Card />
-
             <Footer />
         </>
     )

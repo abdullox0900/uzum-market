@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import "./hero.scss"
 import Mirror from '../../assets/svg/mirror.svg'
 import Person from '../../assets/svg/person.svg'
@@ -8,12 +9,14 @@ import Strelka from '../../assets/svg/strelka.svg'
 import Uzum from '../../assets/svg/uzum.svg'
 import Katalog from '../../assets/svg/katalog.svg'
 import { content } from '../../localization/content'
+import Modal from '../hero/modal/modal'
 
 
 
 
 
-function Hero({lang, setLang}) {
+function Hero({ lang, setLang }) {
+    const [modalActive, setModalActive] = useState(true)
     return (
         <div className="container">
 
@@ -42,9 +45,33 @@ function Hero({lang, setLang}) {
                 <div className="hero-right">
                     <div className="hero-person">
                         <img src={Person} alt="" />
-                        <p>
+
+                        <p className="open-modal" onClick={() => setModalActive(true)}>
                             {content[lang].kirish}
                         </p>
+                        <Modal active={modalActive} setActive={setModalActive}>
+                            <div className="modal-big">
+                                <div className='title'>Введите номер телефона</div>
+                                <div className='description'>Отправим смс с кодом подтверждения</div>
+                                <form>
+                                    <input className='modal__input' type="number" placeholder='+998 00 000 00 00' />
+                                    <button className='modal__btn' type='submit'>Получить код</button>
+                                </form>
+
+                                <div className="footer__modal">
+                                    <p>
+                                        Авторизуясь, вы соглашаетесь c
+                                    </p>
+                                    <a href="#">политикой обработки персональных данных</a>
+
+                                </div>
+
+                            </div>
+
+
+                        </Modal>
+
+
                     </div>
                     <div className="hero-heart">
                         <img src={Heart} alt="" />
@@ -88,7 +115,7 @@ function Hero({lang, setLang}) {
 
 
 
-        </div>
+        </div >
     )
 }
 
