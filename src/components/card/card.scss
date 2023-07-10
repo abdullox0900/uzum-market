@@ -4,6 +4,7 @@
   gap: 47px;
   justify-content: center;
   margin-bottom: 200px;
+  
 
   .card {
     display: flex;
@@ -14,20 +15,31 @@
     margin-top: 20px;
     border-radius: 8px;
     background-color: white;
+    position: relative;
+    
     img {
       width: 232px;
       height: 310px;
       border-radius: 8px;
     }
+    img:hover {
+      width: 237px;
+      height: 315px;
+      border-radius: 0;
+      transition: 0.3s linear;
+    }
     .heart {
-      position: absolute;
-
       img {
         width: 20px;
         height: 20px;
         top: 12px;
         right: 9px;
-        position: relative;
+        position: absolute;
+        opacity: 0.4000000059604645;
+      }
+      img:hover {
+        opacity: 1;
+        transition: 0.3s linear;
       }
     }
     .card-body {

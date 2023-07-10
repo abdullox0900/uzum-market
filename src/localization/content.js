@@ -21,6 +21,9 @@ export const content = {
         avtotovar: 'Avtotovarlar',
         yana: 'Yana',
 
+        // show more
+        yana: "Yana ko'rsatish 20",
+
         // footer
         biz_haqimizda: 'Biz haqimizda',
         topshirish_punktlari: 'Topshirish punktlari',
@@ -59,6 +62,9 @@ export const content = {
         qurilish: 'Строительство и ремонт',
         avtotovar: 'Автотовары',
         yana: 'Еще',
+
+        // show more
+        yana: "Показать ещё 20",
 
         // footer
         biz_haqimizda: 'О нас',
