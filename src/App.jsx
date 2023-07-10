@@ -1,25 +1,20 @@
-import { useState } from 'react'
+import {Routes, Route, NavLink} from "react-router-dom"
 import './App.css'
-import Header from './components/header/header'
-import Hero from './components/hero/hero'
-import Footer from './components/footer/footer'
-import Slider from './components/slider/slider'
-// import Test from './components/test/test'
-import Card from './components/card/card'
+import Home from './pages/home'
+import About from "./pages/about";
 
 function App() {
 
-  const [lang, setLang] = useState('uz')
 
   console.log(window.scroll());
 
   return (
     <>
-      <Header lang={lang} setLang={setLang} />
-      <Hero lang={lang} setLang={setLang} />
-      <Slider />
-      <Card />
-      <Footer lang={lang} setLang={setLang}/>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="*" element={<h1>404</h1>} />
+    </Routes>
     </>
   );
 }
