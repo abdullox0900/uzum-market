@@ -20,6 +20,22 @@ export const content = {
         qurilish: 'Qurilish va taʼmirlash',
         avtotovar: 'Avtotovarlar',
         yana: 'Yana',
+
+        // footer
+        biz_haqimizda: 'Biz haqimizda',
+        topshirish_punktlari: 'Topshirish punktlari',
+        vakansiya: 'Vakansiyalar',
+        foydalanuvchilarga: 'Foydalanuvchilarga',
+        aloqa: "Biz bilan bog'lanish",
+        savol_javob: 'Savol-javob',
+        tadbirkorlarga: 'Tadbirkorlarga',
+        uzumda_soting: 'Uzumda soting',
+        sotuvchi_kabineti: 'Sotuvchi kabinetiga kirish',
+        ilovani_yuklash: 'Ilovani yuklab olish',
+        ijtimoiy_tarmoqlar: 'Uzum ijtimoiy tarmoqlarda',
+        maxfiylik: 'Maxfiylik kelishuvi',
+        foydalanuvchi_kelishuvi: 'Foydalanuvchi kelishuvi',
+        licence: '«2023© XK MCHJ «UZUM MARKET». STIR 309376127. Barcha huquqlar himoyalangan»',
   
     },
     ru: {
@@ -43,5 +59,21 @@ export const content = {
         qurilish: 'Строительство и ремонт',
         avtotovar: 'Автотовары',
         yana: 'Еще',
+
+        // footer
+        biz_haqimizda: 'О нас',
+        topshirish_punktlari: 'Пункты выдачи',
+        vakansiya: 'Вакансии',
+        foydalanuvchilarga: 'Пользователям',
+        aloqa: "Связаться с нами",
+        savol_javob: 'Вопрос - Ответ',
+        tadbirkorlarga: 'Для предпринимателей',
+        uzumda_soting: 'Продавайте на Uzum',
+        sotuvchi_kabineti: 'Вход для продавцов',
+        ilovani_yuklash: 'Скачать приложение',
+        ijtimoiy_tarmoqlar: 'Uzum в соцсетях',
+        maxfiylik: 'Соглашение о конфиденциальности',
+        foydalanuvchi_kelishuvi: 'Пользовательское соглашение',
+        licence: '«2023© ИП ООО «UZUM MARKET». ИНН 309376127. Все права защищены»'
     },
 }

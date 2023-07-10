@@ -6,34 +6,35 @@ import instagram from "../../assets/instagram.svg"
 import telegram from "../../assets/telegram.svg"
 import youtube from "../../assets/youtube.svg"
 import facebook from "../../assets/facebook.svg"
+import { content } from "../../localization/content"
 
-function Footer() {
+function Footer({lang, setLang}) {
 
     return (
       <div className="container">
         <div className="foot">
             <div className="foot__about-us">
-                <h4>Biz haqimizda</h4>
-                <a href="#"><p>Topshirish punktlari</p></a>
-                <a href="#"><p>Vakansiyalar</p></a>
+                <h4>{content[lang].biz_haqimizda}</h4>
+                <a href="#"><p>{content[lang].topshirish_punktlari}</p></a>
+                <a href="#"><p>{content[lang].vakansiya}</p></a>
             </div>
             <div className="foot__users">
-                <h4>Foydalanuvchilarga</h4>
-                <a href="#"><p>Biz bilan bog'lanish</p></a>
-                <a href="#"><p>Savol-javob</p></a>
+                <h4>{content[lang].foydalanuvchilarga}</h4>
+                <a href="#"><p>{content[lang].aloqa}</p></a>
+                <a href="#"><p>{content[lang].savol_javob}</p></a>
             </div>
             <div className="foot__businessmen">
-                <h4>Tadbirkorlarga</h4>
-                <a href="#"><p>Uzumda soting</p></a>
-                <a href="#"><p>Sotuvchi kabinetiga kirish</p></a>
+                <h4>{content[lang].tadbirkorlarga}</h4>
+                <a href="#"><p>{content[lang].uzumda_soting}</p></a>
+                <a href="#"><p>{content[lang].sotuvchi_kabineti}</p></a>
             </div>
             <div className="foot__download">
-                <h4 className="app">Ilovani yuklab olish</h4>
+                <h4 className="app">{content[lang].ilovani_yuklash}</h4>
                 <div className="footer-icon-wrapper">
                 <a href="#" className="apple footer-icon-wrap"> <img src={apple} alt="apple logo" />App Store</a>
                 <a href="#" className="google footer-icon-wrap"> <img src={google} alt="google play logo" />Google Play</a>
                 </div>
-                <h4 className="social">Uzum ijtimoiy tarmoqlarda</h4>
+                <h4 className="social">{content[lang].ijtimoiy_tarmoqlar}</h4>
 
                 <a href="https://www.instagram.com/uzum.market">
                     <img src={instagram} alt="instagram logo" /></a>
@@ -44,11 +45,11 @@ function Footer() {
         </div>
         <div className="footer__end">
             <div className="footer__end left">
-                <a href="#">Maxfiylik kelishuvi</a>
-                <a href="#">Foydalanuvchi kelishuvi</a>
+                <a href="#">{content[lang].maxfiylik}</a>
+                <a href="#">{content[lang].foydalanuvchi_kelishuvi}</a>
             </div>
             <div className="footer__end right">
-                <span>«2023© XK MCHJ «UZUM MARKET». STIR 309376127. Barcha huquqlar himoyalangan»</span>
+                <span>{content[lang].licence}</span>
             </div>
         </div>
       </div>

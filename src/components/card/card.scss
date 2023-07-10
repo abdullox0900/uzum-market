@@ -14,15 +14,21 @@
     margin-top: 20px;
     border-radius: 8px;
     background-color: white;
-    // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     img {
       width: 232px;
       height: 310px;
       border-radius: 8px;
     }
     .heart {
-      width: 20px;
-      height: 20px;
+      position: absolute;
+
+      img {
+        width: 20px;
+        height: 20px;
+        top: 12px;
+        right: 9px;
+        position: relative;
+      }
     }
     .card-body {
       width: 232px;

@@ -1,6 +1,6 @@
 export const data = [
     {
-        img: '',
+        img: 'https://images.uzum.uz/ciignif5d7kom1tj7tv0/t_product_540_high.jpg#1688637776870',
         title: "Bug'doy uni Melek birinchi nav, 1 kg",
         reting: 5.0,
         eski: '10 000 som',

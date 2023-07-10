@@ -1,7 +1,7 @@
 import "./card.scss";
 import { data } from "../../data/data";
 import Rating from "../../assets/svg/rating.svg";
-// import Heart from "../../assets/svg/heart-icon.svg";
+import Heart from "../../assets/svg/heart-icon.svg";
 import Cart from "../../assets/svg/cart.svg";
 
 function Card() {
@@ -15,7 +15,7 @@ function Card() {
             return (
               <div className="card">
                 <img src={item?.img} alt="" />
-                {/* <img className="heart" src={Heart} alt="heart" /> */}
+                <button className="heart"><img src={Heart} alt="heart" /></button>
                 <div className="card-body">
                   <div className="card-title">{item.title}</div>
                   <div className="card-rating">

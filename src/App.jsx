@@ -19,7 +19,7 @@ function App() {
       <Hero lang={lang} setLang={setLang} />
       <Slider />
       <Card />
-      <Footer/>
+      <Footer lang={lang} setLang={setLang}/>
     </>
   );
 }
