@@ -1,6 +1,4 @@
 import { useState } from 'react'
-
-
 import Header from '../components/header/header'
 import Hero from '../components/hero/hero'
 import Footer from '../components/footer/footer'
@@ -19,7 +17,6 @@ function Home() {
             <Hero lang={lang} setLang={setLang} />
             <Slider />
             <Card />
-
             <Footer />
         </>
     )
