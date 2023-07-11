@@ -22,7 +22,7 @@ export const content = {
         yana: 'Yana',
 
         // show more
-        yana: "Yana ko'rsatish 20",
+        yana_20: "Yana ko'rsatish 20",
 
         // footer
         biz_haqimizda: 'Biz haqimizda',
@@ -64,7 +64,7 @@ export const content = {
         yana: 'Еще',
 
         // show more
-        yana: "Показать ещё 20",
+        yana_20: "Показать ещё 20",
 
         // footer
         biz_haqimizda: 'О нас',
