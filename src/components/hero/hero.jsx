@@ -16,7 +16,9 @@ import Modal from '../hero/modal/modal'
 
 
 function Hero({ lang, setLang }) {
-    const [modalActive, setModalActive] = useState(true)
+
+    const [modalActive, setModalActive] = useState(false)
+
     return (
         <div className="container">
 
@@ -44,11 +46,13 @@ function Hero({ lang, setLang }) {
 
                 <div className="hero-right">
                     <div className="hero-person">
-                        <img src={Person} alt="" />
+                        <button onClick={() => setModalActive(true)}>
+                            <img src={Person} alt="" />
 
-                        <p className="open-modal" onClick={() => setModalActive(true)}>
-                            {content[lang].kirish}
-                        </p>
+                            <p className="open-modal" >
+                                {content[lang].kirish}
+                            </p>
+                        </button>
                         <Modal active={modalActive} setActive={setModalActive}>
                             <div className="modal-big">
                                 <div className='title'>Введите номер телефона</div>
@@ -67,10 +71,7 @@ function Hero({ lang, setLang }) {
                                 </div>
 
                             </div>
-
-
                         </Modal>
-
 
                     </div>
                     <div className="hero-heart">

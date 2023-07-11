@@ -28,7 +28,6 @@ function Card() {
                   <div className="card-current-price">{item.som}<a href="#"><img className="card-cart" src={Cart} alt="cart"/></a></div>
                 </div>
               </div>
-              
             );
           })}
       </div>
