@@ -6,7 +6,7 @@ import About from "./pages/about";
 function App() {
 
 
-  console.log(window.scroll());
+  // console.log(window.scroll());
 
   return (
     <>
