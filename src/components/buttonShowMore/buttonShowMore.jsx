@@ -1,15 +1,26 @@
-import "./card.scss";
+import Card from "antd/es/card/Card";
+import React, { useState } from "react";
+import './buttonShowMore.scss';
+import { Route } from "react-router-dom";
 import { data } from "../../data/data";
 import Rating from "../../assets/svg/rating.svg";
 import Heart from "../../assets/svg/heart-icon.svg";
 import Cart from "../../assets/svg/cart.svg";
+import { content } from "../../localization/content"
 
-function Card() {
-  console.log(data);
-
-  return (
-    <div className="container">
-      <div className="wrapper">
+const ButtonShowMore = ({lang, setLang}) => {
+    const [showCards, setShowCards] = useState(false);
+  
+    const handleShowMore = () => {
+      setShowCards(true);
+    };
+  
+    return (
+      <div className="container">
+        <button className="show-more" onClick={handleShowMore}>{content[lang].yana}</button>
+        {showCards && (
+          <div>
+            <div className="wrapper">
         {data &&
           data.map((item, index) => {
             return (
@@ -29,8 +40,10 @@ function Card() {
             );
           })}
       </div>
-    </div>
-  );
-}
-
-export default Card;
+          </div>
+        )}
+      </div>
+    );
+  };
+  
+  export default ButtonShowMore;
