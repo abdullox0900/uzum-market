@@ -6,6 +6,7 @@ import Slider from '../components/slider/slider'
 import Card from '../components/card/card'
 import Modal from '../components/hero/modal/modal'
 import InnerPage from '../components/card/inner/inner'
+import ButtonShowMore from '../components/buttonShowMore/buttonShowMore'
 
 function Home() {
 
@@ -19,6 +20,7 @@ function Home() {
             <Modal />
             <Slider />
             <Card />
+            <ButtonShowMore lang={lang} setLang={setLang} />
             <InnerPage/>
 
             {/* <Footer /> */}
